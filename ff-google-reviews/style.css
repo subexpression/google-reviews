@@ -1,0 +1,98 @@
+/*.boxed-blockquote {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #000000;
+	padding:30px 50px 50px;
+	color: #ffffff;
+	border: none;
+	font-weight: 700;
+}
+.boxed-blockquote .blockquote-image {
+	margin:0 0 30px;
+}
+.boxed-blockquote footer {
+	font-size: 18px;
+	line-height: 24px;
+	font-style: italic;
+	margin-top: 30px;
+	color: #ffffff;
+}
+.boxed-blockquote footer:before {
+	content: '';
+}
+.boxed-blockquote footer div span:before {
+	content: '\2014 \00A0';
+}*/
+.review {
+	margin-bottom: 60px;
+}
+.review blockquote {
+	padding: 0;
+	margin: 0;
+	border-left: 0;
+	font-size: 17.5px;
+}
+/* RATING STARS */
+.stars {
+	margin: 20px 10px;
+}
+.rating {
+	background: url('img/star-sprite.png') 0 0;
+	width: 88px;
+	height: 16px;
+}
+.stars-half {
+	background-position: 0 -16px;
+}
+.stars-one {
+	background-position: 0 -32px;
+}
+.stars-one-half {
+	background-position: 0 -48px;
+}
+.stars-two {
+	background-position: 0 -64px;
+	width: 88px;
+	height: 16px;
+}
+.stars-two-half {
+	background-position: 0 -80px;
+}
+.stars-three {
+	background-position: 0 -96px;
+}
+.stars-three-half {
+	background-position: 0 -112px;
+}
+.stars-four {
+	background-position: 0 -128px;
+}
+.stars-four-half {
+	background-position: 0 -144px;
+}
+.stars-five {
+	background-position: 0 -160px;
+}
+.rating-text {
+
+}
+.overall-rating {
+	clear: both;
+	float: left;
+	margin-right: 10px;
+}
+.rating {
+	float: left;
+	margin-right: 10px;
+}
+.based-on {
+	float: left;
+}
+@media screen and (max-width: 450px){
+	.based-on {
+		clear: left;
+		float: none;
+	}
+}
